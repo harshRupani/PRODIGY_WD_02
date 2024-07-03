@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Stopwatch</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="stopwatch.css">
+    </head>
+    <body>
+        <div class="topnav" id="mytopnav">
+            <a href="../PRODIGY_WD_01/responsive_nav.html" class="active">Home</a>
+            <a href="../PRODIGY_WD_03/tictac.html">Tic Tac Toe</a>
+            <a href="../PRODIGY_WD_04/portfolio.html">Portfolio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myfunc()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="container">
+            <h1>Stopwatch</h1>
+            <p class="time">
+                <span id="min">00</span>:<span id="sec">00</span>:<span id="milisec">00</span>
+            </p>
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
+            <div id="laps"></div>
+        </div>
+    </body>
+    <script src="stopwatch.js"></script>
+</html>
